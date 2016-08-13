@@ -2,10 +2,11 @@
 
 import { addProviders, async, inject } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { TodoService } from './shared/todo.service';
 
 describe('App: TodoFrontend', () => {
   beforeEach(() => {
-    addProviders([AppComponent]);
+    addProviders([AppComponent, TodoService]);
   });
 
   it('should create the app',
