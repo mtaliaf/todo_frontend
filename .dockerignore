@@ -1,0 +1,6 @@
+.git/
+typings/
+node_modules/
+tmp/
+README.md
+Dockerfile
